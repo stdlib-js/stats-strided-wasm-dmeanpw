@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dmeanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dmeanpw@esm/index.mjs';
+import dmeanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dmeanpw@v0.1.1-esm/index.mjs';
 ```
 
 #### dmeanpw.main( N, x, strideX )
@@ -266,7 +266,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dmeanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dmeanpw@esm/index.mjs';
+import dmeanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dmeanpw@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
